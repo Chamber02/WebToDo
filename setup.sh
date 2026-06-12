@@ -1,4 +1,4 @@
-mkdir -p ~/.streamlit/
+mkdir -p ~/.streamlit/ #command will create a directory
 
 echo "\
 [general]\n\
@@ -11,3 +11,6 @@ headless = true\n\
 enableCORS=false\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
+
+#file is for a shell script
+#three parts 
